@@ -8,14 +8,11 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <h1>Launching soon!</h1>
+    <p>We apologize for the inconvenience, our site is undergoing some upgrades to serve you better.</p>
+    <p>You can still contact us at <a href="mailto:sales@datrimapackaging.com">sales@datrimapackaging.com</a> Or visit us on Facebook at <a href="https://www.facebook.com/pages/Datrima-Packaging/154427008058944" target="_blank">Datrima Packaging.</a></p>
+    {/* <Link to="/page-2/">Go to page 2</Link> <br />
+    <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
   </Layout>
 )
 
